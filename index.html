@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="image\ms.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Tech-Farmers</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+<a href="index.html">
+  <div class="logo">
+    <img src="./image/TF.png" alt="logo" />
+  </div>
+</a>
+			<!-- <div class="brand_name">Tech-Farmers</div> -->
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#portfolio_section">Achievements</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+			</ul>
+			<!-- <div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="https://www.nicepng.com/png/detail/337-3376154_search-icon-icon-for-search-button.png" alt="search" onclick=slide()></div> -->
+			<a class="get-started" href="login.html">Get Started</a>
+			<img src="image\list.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Welcome to TechFarmers: Your Partner in Agricultural Excellence
+
+Empowering Farmers, Growing Futures</p>
+				<h5>At TechFarmers, we believe that the future of agriculture is bright, and it starts with you. Whether you're a seasoned farmer or just starting on your agricultural journey, we're here to support you every step of the way.</h5>
+				<div class="play">
+					<img src="https://cdn-icons-png.flaticon.com/512/5930/5930256.png" alt="play"><span><a href="" target="_blank">Watch Now</a></span>
+				</div>
+			</div>
+			<div class="svg-image">
+				<img src="./image/logo1.png" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="image\close.png" alt=""></div>
+			<div class="user">
+				<img src="https://media.licdn.com/dms/image/C4D03AQE4baKhSu6jFg/profile-displayphoto-shrink_800_800/0/1657559150174?e=2147483647&v=beta&t=1rlYZVSrk3ZNX55h3WdxsDoX17AujCpVRIQSlqOFnu0" alt="Username">
+				<p>Santhosh1914</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#portfolio_section">Portfolio</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+<!-- Some Popular Subjects -->
+	<div class="title">
+		<span>Popular features with Tech-Farmers</span>
+	</div>
+	<br><br>
+	<div class="course">
+		<center><div class="cbox">
+		<div class="det"><a href="https://www.shiksha.com/engineering/jee-main-exam-preparation"><img src="https://play-lh.googleusercontent.com/fwxDwvbzZUME4448uHhzMChl3mY4dL8HnstrjGXUooTNSbYAFgB2Ft_es4ADX8scR2CF=w240-h480-rw">Expert-Led Tutorials</a></div>
+		<div class="det"><a href="https://byjus.com/gate/gate-preparation-tips/"><img src="https://e7.pngegg.com/pngimages/447/794/png-clipart-swami-shraddhanand-college-delhi-higher-education-gate-exam-school-school-university-higher-education-thumbnail.png">Agricultural Support</a></div>
+		<div class="det"><a href="https://engineering.careers360.com/download/gate-sample-papers-previous-years"><img src="image\essay.png">Practices</a></div>
+		<div class="det"><a href="https://www.geeksforgeeks.org/mock-quizzes-for-gate-cs-gq/"><img src="image\quiz.png">Service Team</a></div>
+		</div></center>
+		<div class="cbox">
+		<div class="det"><a href="https://www.careers360.com/courses-certifications/articles/best-free-online-computer-courses-with-certificate-to-learn-right-now"><img src="image\computer.png">Business Expansion</a></div>
+		<div class="det"><a href="https://www.javatpoint.com/data-structure-tutorial"><img src="image\data-structure.png">Contact Us</a></div>
+		<div class="det"><a href="https://www.geeksforgeeks.org/introduction-to-algorithms/"><img src="image\algorithms.png">Testimonials</a></div>
+		<div class="det det-last"><a href="https://www.javatpoint.com/free-java-projects"><img src="image\clipboard.png">Tool and Equipment</a></div>
+		</div>
+	</div>
+
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="image\download.jpeg">
+				</div>
+				<div class="side-text">
+					<h2>What you think about us ?</h2>
+					<p>At TechFarmers, we're on a mission to revolutionize agriculture by bridging the gap between traditional farming wisdom and cutting-edge technology. Our platform is the fertile ground where innovation meets cultivation, and we're passionate about empowering farmers worldwide.
+
+With a commitment to sustainable farming practices and community building, we offer expert guidance, connect you with agri-tech startups, and provide comprehensive support tailored to your farming needs.
+
+Join our thriving community of farmers, innovators, and experts as we cultivate a greener, more prosperous future for agriculture. Together, we're sowing the seeds of progress, one harvest at a time.
+
+Welcome to TechFarmers, where the future of farming begins.</p>
+				</div>
+		</div>
+	</div>
+
+
+<!-- PORTFOLIO -->
+	<div class="diffSection" id="portfolio_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Achievements</p></center>
+		<div class="content">
+			<p>
+				
+"Cultivate Tomorrow's Agriculture: Empower Yourself with TechFarmers Today."
+			</p>
+		</div>
+	</div>
+	<div class="extra">
+		<p>We're increasing this data every year</p>
+		<div class="smbox">
+		<span><center><div class="data">23+</div><div class="det">Connected farmers</div></center></span>
+		<span><center><div class="data">500+</div><div class="det">Total lectures</div></center></span>
+		<span><center><div class="data">100+</div><div class="det">Tools supplied</div></center></span>
+		<span><center><div class="data">245+</div><div class="det">Happy farmers</div></center></span>
+		</div>
+	</div>
+
+
+<!-- TEAM -->
+	<div class="diffSection" id="team_section">
+		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">We're the Creators</p></center>
+		<div class="totalcard">
+			<div class="card">
+				<center><img src="./image/21951A05N3.jpg"></center>
+				<center><div class="card-title">Raviteja Uppulapu</div>
+				<div id="detail">
+					<p>"Contact:6300454715"</p>
+					<p>"place  :Hyderabad"</p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/raviteja-uppulapu-149354246/" target="_blank"><button class="btn-roshan">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="./image/21951A05N8.jpg"></center>
+				<center><div class="card-title">M Varaprasad</div>
+				<div id="detail">
+					<p>"Contact:6302156785"</p>
+					<p>"place  :Hyderabad"</p>					
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/moka-varaprasad-6b628b254/" target="_blank"><button class="btn-roshan">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="./image/21951A05L1.jpg"></center>
+				<center><div class="card-title">Ch Sreenath</div>
+				<div id="detail">
+					<p>"Contact:8125641600"</p>
+					<p>"place  :Hyderabad"</p>					
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/choppadandi-sreenath-3a0543251" target="_blank"><button class="btn-roshan">Follow +</button></a>
+				</div>
+				</center>
+			</div> 
+			
+				
+					
+				
+			</div>
+		</div>
+	</div>
+
+
+<!-- SERVICES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Services</p></center>
+		</div>
+		<a href="#contactus_section"><div class="s-card"><img src="image\computer.png"><p>Expert Guidance</p></div></a>
+		<a href="products.html"><div class="s-card"><img src="image\concept building.png"><p>Tech-Tool & Products</p></div></a>
+		<a href="youtube.html"><div class="s-card"><img src="image\learning video.png"><p>Video Lectures</p></div></a>
+		<a href="#contactus_section"><div class="s-card"><img src="image\24-hours.png"><p>24x7 Online Support</p></div></a>
+	</div>
+
+<!-- Reviews by Students -->
+<div id="makeitfull">
+	<a href="#review_section"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYifW7WKZUFz1V9mXSKS7gn9_MytHb0s-wEQ&usqp=CAU"></a>
+</div>
+<div class="review">
+	<div class="diffSection" id="review_section">
+		<center><p style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #2E3D49;">What the Farmers Say About Us?</p></center>
+	</div>
+	<div class="rev-container">
+		<div class="rev-card">
+			<div class="identity">
+<img src="./image/farmers_logo.jpg"><p>Ramesh</p>
+				<h6>Warangal</h6>
+				<div class="rating"><img src="image\star.png"><img src="image\star.png"><img src="image\star.png"><img src="image\star.png"><img src="image\star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+"TechFarmers is the bee's knees! They guided me into apiculture, and I've never looked back. Their commitment to sustainability resonates with beekeepers like me. Buzzing with excitement about this community!"				</p>
+			</div>2
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="./image/farmers_logo.jpg"><p>Santhosh</p>
+				<h6>Medchal</h6>
+				<div class="rating"><img src="image\star.png"><img src="image\star.png"><img src="image\star.png"><img src="image\star.png"><img src="image\star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+"TechFarmers is a green oasis in the agri-tech world. Their support team rocks; they helped me find the best suppliers. My horticulture business blossomed thanks to their resources!"				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="./image/farmers_logo.jpg"><p>Chandhu</p>
+				<h6>Kammaam</h6>
+				<div class="rating"><img src="image\star.png"><img src="image\star.png"><img src="image\star.png"><img src="image\star.png"><img src="image\star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+"TechFarmers simplifies everything. I got my poultry equipment hassle-free. The friendly farming advice improved my yields. I couldn't imagine my farm without them now!"				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="./image/farmers_logo.jpg"><p>Vamshi</p>
+				<h6>Warangal</h6>
+				<div class="rating"><img src="image\star.png"><img src="image\star.png"><img src="image\star.png"><img src="image\star.png"><img src="image\star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+"TechFarmers transformed my farming game. The tutorials are gold, and their tool connections made upgrading a breeze. The sustainable focus aligns perfectly with my values. I feel part of a thriving community here!"				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- CONTACT US -->
+	<div class="diffSection" id="contactus_section">
+		<center><p style="font-size: 50px; padding: 100px">Contact us to Connect</p></center>
+		<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+			<form action="mailto:21951a05n3@gmail.com" method="post" enctype="text/plain">
+				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+				<center>
+				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+				</center>
+				<label>Email <span class="imp">*</span></label><br>
+				<input type="email" name="mail" style="width: 100%" required="required"><br>
+				<label>Message <span class="imp">*</span></label><br>
+				<input type="text" name="message" style="width: 100%" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+			</div>
+		</div>
+	</div>
+
+
+<!-- FEEDBACK -->
+	<!-- <div class="title2" id="feedBACK">
+		<span>Give Feedback</span>
+		<div class="shortdesc2">
+			<p>Please share your valuable feedback to us</p>
+		</div>
+	</div>
+
+	<div class="feedbox">
+		<div class="feed">
+			<form action="mailto:mudavathsanthosh042002@gmail.com" method="post" enctype="text/plain">
+				<label>Your Name</label><br>
+				<input type="text" name="" class="fname" required="required"><br>
+				<label>Email</label><br>
+				<input type="email" name="mail" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+		</div>
+	</div> -->
+<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #3efc67, #f03a3a); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">"Welcome to TechFarmers - Cultivating Innovation in Agriculture! Join our vibrant community of farmers and agripreneurs today for expert guidance, eco-friendly practices, and seamless connections to agri-tech startups."</div></marquee>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="./image/TF.png" style="width: 200px;">
+				<div class="logo"></div>
+				<!-- <div class="social-media">
+					<a href="#"><img src="image\instagram.png"></a>
+					<a href="#"><img src="image\facebook.png"></a>
+					<a href="#"><img src="image\linkedin.png"></a>
+					<a href="#"><img src="image\twitter.png"></a>
+					<a href="#"><img src="image\meta.png"></a>
+				</div><br><br> -->
+				<p class="rights-text">Copyright © 2023 Created By Raviteja Uppulapu All Rights Reserved.</p>
+				<br><p><img src="image\location.png" height="20px" width="20px"> Institute of Aeronautical Engineering<br>Dundigal,Hyderabad-500043</p><br>
+				<p><img src="image\phone-call.png" height="20px" width="20px"> +916300454715<br><img src="image\gmail.png" height="20px" width="20px">&nbsp; 21951a05n3@gmail.com</p>
+			</div>
+			<div class="right-col">
+    <h1 style="color: #fff">Our Newsletter</h1>
+    <div class="border"></div><br>
+    <div id="emailInstructions">
+        <p>Enter Your Email to get our News and updates.</p>
+    </div>
+    <form class="newsletter-form" id="newsletterForm">
+        <input class="txtb" type="email" id="emailInput" placeholder="Enter Your Email">
+        <input class="btn" type="submit" value="Submit">
+    </form>
+    <div id="thankYouMessage" style="display: none;">
+        <p>Thank you for subscribing to our newsletter!</p>
+    </div>
+</div>
+		</div>
+	</footer>
+
+</body>
+<script>
+    document.getElementById("newsletterForm").addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent the form from submitting normally
+
+        // Hide the email instructions and the form
+        document.getElementById("emailInstructions").style.display = "none";
+        document.getElementById("newsletterForm").style.display = "none";
+
+        // Show the "Thank you" message
+        document.getElementById("thankYouMessage").style.display = "block";
+    });
+</script>
+</html>
+
+
+
+<!-- https://youtu.be/r5fbP0x-C3k -->
