@@ -23,17 +23,12 @@ TechFarmers is designed to revolutionize agricultural education by providing far
 - **Educational Content:** Access to online courses, tutorials, and webinars on modern farming techniques.
 - **Resource Access:** Real-time market information, weather updates, and best practices for sustainable farming.
 - **Community and Support:** Forums and chat systems for knowledge sharing and expert consultations.
-- **Technology Integration:** Connect with agri-tech startups and tools to modernize farming practices.
 
 ## Tech Stack
-- **Frontend:** HTML, CSS, JavaScript, React
-- **Backend:** Node.js, Express.js, MongoDB
-- **Template Engine:** EJS (Embedded JavaScript)
-- **API Integration:** Various third-party APIs for market and weather updates
+- **Frontend:** HTML, CSS, JavaScript
 
 ## Installation
-Follow these steps to set up the project locally:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/tech-farmers.git
+### Navigate to the project directory:
+```bash
+cd tech-farmers
